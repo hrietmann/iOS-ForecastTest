@@ -9,8 +9,11 @@ import Combine
 import GlobalUI
 
 class DetailViewController: UIViewController {
+    
+    private let item: ForecastItem
 
-    public init() {
+    public init(item: ForecastItem? = nil) {
+        self.item = item ?? .dummy
         super.init(nibName: nil, bundle: nil)
     }
 
@@ -20,6 +23,6 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addFullScreenView(DetailView())
+        self.addFullScreenView(DetailView(item: item))
     }
 }

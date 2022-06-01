@@ -22,3 +22,6 @@ struct ForecastItemDTO: Codable {
         case high, low, type
     }
 }
+
+
+typealias ForecastItemDTOs = [ForecastItemDTO]

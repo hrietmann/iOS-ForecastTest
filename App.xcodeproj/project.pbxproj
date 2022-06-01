@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C59A82928473F6C0099DDE2 /* ForecastServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C59A82828473F6C0099DDE2 /* ForecastServiceProvider.swift */; };
 		4A925F28280582DD0021096B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADACE4C28041D6800706AD5 /* Assets.xcassets */; };
 		4AA546D72804269400BCE871 /* TableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA546D42804269400BCE871 /* TableViewDelegate.swift */; };
 		4AA546D82804269400BCE871 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA546D52804269400BCE871 /* TableView.swift */; };
@@ -106,6 +107,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C59A82828473F6C0099DDE2 /* ForecastServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastServiceProvider.swift; sourceTree = "<group>"; };
 		4AA546D42804269400BCE871 /* TableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDelegate.swift; sourceTree = "<group>"; };
 		4AA546D52804269400BCE871 /* TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		4AA546D62804269400BCE871 /* TableView+DragDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableView+DragDrop.swift"; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				4AA5470B28045EA700BCE871 /* ForecastService.swift */,
+				1C59A82828473F6C0099DDE2 /* ForecastServiceProvider.swift */,
 				4AA5470D28045F6A00BCE871 /* Models */,
 				4AA5470728045BC200BCE871 /* Network */,
 			);
@@ -541,6 +544,7 @@
 				4AA547182804672000BCE871 /* ListCellData.swift in Sources */,
 				4AA546FC2804428400BCE871 /* DetailViewController.swift in Sources */,
 				4AA5470F28045F7400BCE871 /* ForecastItem.swift in Sources */,
+				1C59A82928473F6C0099DDE2 /* ForecastServiceProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +738,7 @@
 				DEVELOPMENT_TEAM = LWJTLD5565;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Forecast;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -762,6 +767,7 @@
 				DEVELOPMENT_TEAM = LWJTLD5565;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Forecast;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -13,9 +13,10 @@ class ListViewCoordinator {
 
     public func start(window: UIWindow) {
         let viewModel = ListViewModel()
-
-        // TODO
-        //  viewModel.showDetail =
+        viewModel.showDetail = { [weak window] item in
+            guard let window = window else { return }
+            DetailViewCoordinator().present(item: item, in: window)
+        }
 
         let viewController = ListViewController(viewModel: viewModel)
         let navigationController = UINavigationController(rootViewController: viewController)
